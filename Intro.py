@@ -282,7 +282,7 @@
 # print(wordSet)
 # print(numberSet1)
 																# 'Ninteenth test'
-from itertools import *
+# from itertools import *
 
 # startingNumber = 6
 # for i in count(startingNumber):
@@ -302,11 +302,11 @@ summations = list(accumulate(range(10)))
 print(summations)
 """
 
-numbers = list(range(10))
-numbers2 = list(range(10, 20))
-print(list(takewhile(lambda x: x<6, numbers)))
-print(list(chain(numbers, numbers2)))
+# numbers = list(range(10))
+# numbers2 = list(range(10, 20))
+# print(list(takewhile(lambda x: x<6, numbers)))
+# print(list(chain(numbers, numbers2)))
 
-letters = ("A", "B", "C")
-print(list(product(letters, range(3))))
-print(list(permutations(letters)))
+# letters = ("A", "B", "C")
+# print(list(product(letters, range(3))))
+# print(list(permutations(letters)))
